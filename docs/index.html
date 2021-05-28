@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>docsify-sponsor</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="docsify-sponsor docsify docsify-plugin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/JaderH/JaderH.github.io@master/css/gitalk.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sponsor@latest/dist/sponsor.min.css" />
+</head>
+<body>
+  <div id="app">加载中，请稍后...</div>
+  <script>
+    window.$docsify = {
+      name: 'docsify-sponsor',
+      // 文章深度
+      maxLevel: 2,
+      // 子目录层级
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        paths: 'auto',
+        noData: {
+          '/': '没有结果'
+        },
+        placeholder: {
+          '/': '搜索一下'
+        }
+      },
+      darklightTheme: {
+        siteFont : 'PT Sans',
+        defaultTheme : 'dark | light',
+        codeFontFamily : 'Roboto Mono, Monaco, courier, monospace',
+        bodyFontSize : '15px',
+        dark: {
+          accent: '#539bf5', // 强调颜色
+          toogleBackground : '#ffffff', // 图格背景颜色
+          background: '#22272e', // 背景颜色
+          textColor: '#adbac7', // 文本颜色
+          codeTextColor : '#adbac7', // 代码文本颜色
+          codeBackgroundColor : '#2d333b', // 代码背景色
+          borderColor : '#444c56', // 边框颜色
+          // blockQuoteColor : '#858585',
+          // highlightColor : '#d22778', // 高亮颜色
+          sidebarSublink : '#768390', // 侧边栏链接颜色
+          // codeTypeColor : '#ffffff',
+          coverBackground : 'linear-gradient(to left bottom, hsl(28deg 48% 48%) 0%,hsl(149deg 23% 35%) 100%)', // 封面背景
+        },
+        light: {
+          accent: '#539bf5', // 强调颜色
+          toogleBackground : '#091a28', // 图格背景颜色
+          background: '#ffffff', // 背景颜色
+          textColor: '#34495e', // 文本颜色
+          codeTextColor : '#34495e', // 代码文本颜色
+          codeBackgroundColor : '#f6f8fa', // 代码背景色
+          borderColor : 'rgba(0, 0, 0, 0.07)', // 边框颜色
+          // blockQuoteColor : '#858585',
+          // highlightColor : '#d22778', // 高亮颜色
+          sidebarSublink : '#586069', // 侧边栏链接颜色
+          // codeTypeColor : '#ffffff',
+          coverBackground : 'linear-gradient(to left bottom, hsl(28deg 48% 48%) 0%,hsl(149deg 23% 35%) 100%)', // 封面背景
+        }
+      },
+      sponsor: {
+        github: 'https://github.com/JaderH',
+        alipay_donate_qrcode: "https://cdn.jsdelivr.net/gh/JaderH/JaderH.github.io@master/assets/AliPayQR.png",
+        alipay_donate_link: "https://qr.alipay.com/fkx14579f8hzpauqxrteze9",
+        wechat_donate_qrcode: "https://cdn.jsdelivr.net/gh/JaderH/JaderH.github.io@master/assets/WeChanSQ.png",
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/JaderH/JaderH.github.io@master/js/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sponsor@latest/dist/sponsor.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: "1a06d73a89ec7f34fd85",
+      clientSecret: "088fb63106d3d17e30153187cf85125cd56c18b1",
+      repo: "jaderh.github.io",
+      owner: "JaderH",
+      admin: ["JaderH"],
+      number: 2,
+      distractionFreeMode: true,
+      labels: ["talk"],
+      title: "Welcome!",
+      perPage: 10,
+    });
+  </script>
+</body>
+</html>
