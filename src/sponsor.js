@@ -1,8 +1,8 @@
 var defaultOptions = {
-    github: 'https://github.com/JaderH',
-    alipay_donate_qrcode: 'https://cdn.jsdelivr.net/gh/JaderH/JaderH.github.io@master/assets/AliPayQR.png',
+    github: 'https://github.com/Jader',
+    alipay_donate_qrcode: 'https://cdn.jsdelivr.net/gh/Jader/Jader.github.io@master/assets/AliPayQR.png',
     alipay_donate_link: 'https://qr.alipay.com/fkx14579f8hzpauqxrteze9',
-    wechat_donate_qrcode: 'https://cdn.jsdelivr.net/gh/JaderH/JaderH.github.io@master/assets/WeChanSQ.png',
+    wechat_donate_qrcode: 'https://cdn.jsdelivr.net/gh/Jader/Jader.github.io@master/assets/WeChanSQ.png',
 }
 
 // Docsify plugin functions

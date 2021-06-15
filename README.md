@@ -44,7 +44,7 @@ window.$docsify = {
 
 | 属性名 Attribute | 类型 Type | 解释 Description | 默认值 Defaults |
 | --------------- | -------- | --------------- | ----------- |
-| github | string | GitHub 链接地址 GitHub link address  | https://github.com/JaderH |
-| alipay_donate_qrcode | string | 支付宝二维码图片地址 Alipay two-dimensional code picture address | https://cdn.jsdelivr.net/gh/JaderH/JaderH.github.io@master/assets/AliPayQR.png |
+| github | string | GitHub 链接地址 GitHub link address  | https://github.com/Jader |
+| alipay_donate_qrcode | string | 支付宝二维码图片地址 Alipay two-dimensional code picture address | https://cdn.jsdelivr.net/gh/Jader/Jader.github.io@master/assets/AliPayQR.png |
 | alipay_donate_link | string | 支付宝二维码链接地址 Alipay QR code link address | https://qr.alipay.com/fkx14579f8hzpauqxrteze9 |
-| wechat_donate_qrcode | string | 微信二维码图片地址 WeChat QR code picture address | https://cdn.jsdelivr.net/gh/JaderH/JaderH.github.io@master/assets/WeChanSQ.png |
+| wechat_donate_qrcode | string | 微信二维码图片地址 WeChat QR code picture address | https://cdn.jsdelivr.net/gh/Jader/Jader.github.io@master/assets/WeChanSQ.png |

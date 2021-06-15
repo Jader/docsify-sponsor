@@ -2,14 +2,14 @@
   "name": "docsify-sponsor",
   "version": "1.0.1",
   "description": "Sponsor plugin for docsify",
-  "author": "Jade <hmy940118@gmail.com>",
+  "author": "Jader <hmy940118@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "uglifyjs ./src/sponsor.js -c -m -o ./dist/sponsor.min.js & uglifycss ./src/sponsor.css > ./dist/sponsor.min.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JaderH/docsify-sponsor.git"
+    "url": "git+https://github.com/Jader/docsify-sponsor.git"
   },
   "keywords": [
     "sponsor",
@@ -17,9 +17,9 @@
     "plugin"
   ],
   "bugs": {
-    "url": "https://github.com/JaderH/docsify-sponsor/issues"
+    "url": "https://github.com/Jader/docsify-sponsor/issues"
   },
-  "homepage": "https://github.com/JaderH/docsify-sponsor",
+  "homepage": "https://github.com/Jader/docsify-sponsor",
   "directories": {
     "doc": "docs"
   },
